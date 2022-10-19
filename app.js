@@ -2,8 +2,8 @@ const express = require('express');
 // const logger = require('morgan');
 const app = express();
 const port = 3070;
-const maDate = new Date();
-const square = require('./square');
+// const maDate = new Date();
+// const square = require('./square');
 const wiki = require('./wiki.js');
 
 
