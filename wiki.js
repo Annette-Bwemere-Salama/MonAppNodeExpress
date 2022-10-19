@@ -4,6 +4,8 @@ const router = express.Router();
 
 //Route vers la page d'acceuil
 
+
+
 router.get('/', (req, res) => {
     // res.send('Page d\'accueil WikiAnnette bwemere');
     res.sendFile(__dirname + "/components/pages/index.html")
