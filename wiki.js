@@ -14,8 +14,16 @@ router.get('/', (req, res) => {
 
 router.get('/about', (req, res) => {
     // res.send('À propos de ce Wiki ');
-    res.sendFile(__dirname + "/components/pages/index.html")
-
+    res.sendFile(__dirname + "/components/pages/about.html")
 });
+
+//signup page
+
+router.get('/about/sign_up', (req, res) => {
+    // res.send('À propos de ce Wiki ');
+    res.sendFile(__dirname + "/components/pages/sing_up.html")
+});
+
+
 
 module.exports = router
