@@ -8,7 +8,7 @@ const router = express.Router();
 
 router.get('/', (req, res) => {
     // res.send('Page d\'accueil WikiAnnette bwemere');
-    res.sendFile(__dirname + "/components/pages/index.html")
+    res.sendFile(__dirname + "/public/pages/index.html")
 });
 
 
